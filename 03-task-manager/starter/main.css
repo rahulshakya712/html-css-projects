@@ -259,42 +259,40 @@ Task Manager
 ===============
 */
 
-.task-form {
+.task-form{
   margin-top: 6rem;
 }
-.task-form h4 {
+.task-form h4{
   text-align: center;
 }
-.submit-btn {
+.submit-btn{
   width: 100%;
   margin-top: 1rem;
 }
-@media screen and (min-width: 576px) {
-  .form-control {
-    display: flex;
+@media screen  and (min-width:576px) {
+  .form-control{
+    display:flex;
   }
-  .task-input {
+  .task-input{
     border-radius: 0;
     border-top-left-radius: var(--borderRadius);
     border-bottom-left-radius: var(--borderRadius);
   }
-  .submit-btn {
+  .submit-btn{
     border-radius: 0;
-    border-top-right-radius: var(--borderRadius);
+    border-bottom-right-radius: var(--borderRadius);
     border-bottom-right-radius: var(--borderRadius);
     width: 175px;
   }
 }
-.text-success {
+.text-susccess {
   color: var(--green-dark);
 }
-
-/*
-=============== 
-task 
-===============
+/* 
+============
+task
+============
 */
-
 .tasks-container {
   width: 90vw;
   max-width: var(--fixed-width);
@@ -307,7 +305,7 @@ task
   gap: 1rem;
 }
 .single-task {
-  padding: 1rem 2.5rem;
+  padding: 1rem 1.5rem;
   background: var(--white);
   border-radius: var(--borderRadius);
   box-shadow: var(--shadow-2);
@@ -315,15 +313,16 @@ task
   display: flex;
   justify-content: space-between;
 }
-.single-task:hover {
+.single-task:hover{
   box-shadow: var(--shadow-4);
 }
-.single-task h5 {
+.single-task h5{
   margin-bottom: 0;
+
 }
-.single-task .fa-check-circle {
-  margin-left: -1.25rem;
-  margin-right: 1.5rem;
+.single-task .fa-check-circle{
+  margin-left: -1.25em;
+  margin-right: 1.5em;
   font-size: 1rem;
   color: var(--green-dark);
   visibility: hidden;
@@ -332,11 +331,10 @@ task
   text-decoration: line-through;
 }
 .task-completed .fa-check-circle {
-  visibility: visible;
+  visibility: hidden;
 }
-
 /* Task links */
-.task-links {
+.task-links{
   display: flex;
   align-items: center;
   gap: 0 0.5rem;
@@ -351,55 +349,52 @@ task
 .edit-links {
   color: var(--green-dark);
 }
-
-.edit-link {
-color: var(--green-dark);
+.edit-link{
+  color: var(--green-dark);
 }
 .delete-btn{
   color: var(--red-dark);
 }
-
-/*
-=============== 
-task 
+/* 
 ===============
-*/
-.single-task-form{
+task
+===============
+ */
+ .single-task-form{
   margin-top: 6rem;
-}
-.single-task-form h4{
+ }
+ .single-task-form h4{
   text-align: center;
-}
-.single-task-form p{
+ }
+ .single-task-form{
   margin-top: 0;
   margin-bottom: 0;
-}
-.single-task-form .form-control{
+ }
+ .single-task-form .form-control{
+
   display: grid;
   grid-template-columns: 150px 1fr;
   align-items: center;
   gap: 0 1rem;
   margin-bottom: 0.75rem;
-}
-.single-task-form label{
+ }
+ .single-task-form label {
   margin-bottom: 0;
-  font-size: 1rem;
-
-}
-.back-link{
+  font-style: 1rem;
+ }
+ .back-link{
   display: block;
   width: 250px;
   margin: 0 auto;
   text-align: center;
   margin-top: 6rem;
   background: var(--black);
-}
-.back-link:hover{
+ }
+ .back-link:hover{
   background: var(--black);
   opacity: 0.75;
-}
-
-.single-task-form .form-alert{
-  text-align: center;
-  margin-top: 1rem;
-}
+ }
+ .single-task-form .form-alert{
+text-align: center;
+margin-top: 1rem;
+ }

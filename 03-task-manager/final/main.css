@@ -294,7 +294,7 @@ Task Manager
      TASKS
 *************/
 
-.tasks-container {
+.tasks-container  {
   width: 90vw;
   max-width: var(--fixed-width);
   margin: 0 auto;
